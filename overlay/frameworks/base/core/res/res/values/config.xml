@@ -16,6 +16,11 @@
 ** limitations under the License.
 */
 -->
+  <!-- This device is not "voice capable"; it's data-only. -->
+    <bool name="config_voice_capable">true</bool>
+
+    <!-- This device does not allow sms service. -->
+    <bool name="config_sms_capable">true</bool>
 
 <resources>
     <!-- This string array should be overridden by the device to present a list of network
